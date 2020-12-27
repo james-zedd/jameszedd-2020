@@ -1,0 +1,21 @@
+.opener {
+    &__list {
+        padding-top: 65px;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                margin: 0 10px 20px;
+                padding: 24px 0;
+                text-align: center;
+                width: calc(20% - 20px);
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+}

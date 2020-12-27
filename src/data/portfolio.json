@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Canadian Beverage Supply - Custom Shopify Theme",
+        "img_code": "cbs",
+        "technologies_used": "Liquid Template Engine, Shopify, Javascript",
+        "tags": "shopify, liquid, javascript",
+        "web_link": "https://cdnbev.com/",
+        "description": "tbd"
+    },
+    {
+        "id": 2,
+        "name": "Beverage Time - Custom Shopify Theme",
+        "img_code": "beverage_time",
+        "technologies_used": "Liquid Template Engine, Shopify, Javascript",
+        "tags": "shopify, liquid, javascript",
+        "web_link": "https://beveragetime.com/",
+        "description": "tbd"
+    },
+    {
+        "id": 3,
+        "name": "Client Panel - Angular/Firebase Application",
+        "img_code": "client_panel",
+        "technologies_used": "Angular, Angular CLI, Firebase, Typescript",
+        "tags": "angular, firebase, typescript",
+        "web_link": "https://clientpanelprod-a1012.firebaseapp.com/login",
+        "github_link": "https://github.com/james-zedd/client-panel-0984543",
+        "description": "tbd"
+    },
+    {
+        "id": 4,
+        "name": "Github Finder - React App for Github",
+        "img_code": "github_finder",
+        "technologies_used": "React, GitHub API",
+        "tags": "react, github, api",
+        "web_link": "https://eager-williams-ee7a0c.netlify.com/",
+        "github_link": "https://github.com/james-zedd/github-finder-react",
+        "description": "tbd"
+    },
+    {
+        "id": 5,
+        "name": "Robyn Zedd Design - Custom React Portfolio",
+        "img_code": "rzd",
+        "technologies_used": "React, NPM",
+        "tags": "react, portfolio, graphic design",
+        "web_link": "http://robynzedd.design/",
+        "github_link": "https://github.com/james-zedd/robyn-zedd-portfolio-6549818961",
+        "description": "tbd"
+    },
+    {
+        "id": 6,
+        "name": "Storybooks - Custom Shopify Theme",
+        "img_code": "story",
+        "technologies_used": "Node JS, Express JS, Heroku CLI",
+        "tags": "nodejs, expressjs, heroku",
+        "web_link": "https://marvelous-isle-royale-75722.herokuapp.com/",
+        "description": "tbd"
+    }
+]

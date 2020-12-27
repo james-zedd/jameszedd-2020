@@ -1,0 +1,12 @@
+.work {
+    &__items {
+        padding-top: 65px;
+    }
+
+    &__item {
+        width: 360px;
+        height: 360px;
+        background-color: red;
+        margin-bottom: 20px;
+    }
+}

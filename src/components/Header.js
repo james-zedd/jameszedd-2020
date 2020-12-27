@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <header>
+        <header class="header">
             <p>jameszedd.com</p>
         </header>
     )
