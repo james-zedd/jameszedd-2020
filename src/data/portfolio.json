@@ -49,7 +49,7 @@
     },
     {
         "id": 6,
-        "name": "Storybooks - Custom Shopify Theme",
+        "name": "Storybooks - Custom Application",
         "img_code": "story",
         "technologies_used": "Node JS, Express JS, Heroku CLI",
         "tags": "nodejs, expressjs, heroku",
