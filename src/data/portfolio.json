@@ -1,59 +1,65 @@
 [
     {
         "id": 1,
-        "name": "Canadian Beverage Supply - Custom Shopify Theme",
+        "name": "Canadian Beverage Supply",
+        "desc": "Custom Shopify Theme",
         "img_code": "cbs",
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
         "tags": "shopify, liquid, javascript",
         "web_link": "https://cdnbev.com/",
-        "description": "tbd"
+        "description": "<p>King Arthur: You fight with the strength of many men, sir Knight. [The Black Knight looks at him in Silence] I am Arthur, King of the Britons. [The Black Knight doesn't respond as Arthur looks at Patsy and back at the Knight] I seek the finest and the bravest Knights in the land to join Me in my court at Camelot. [Still no response as Arthur looks at Patsy and back at the Knight] You have proved yourself worthy. Will you join me? [The Black Knight remains silent as Arthur looks at Patsy and back at him] You make me sad. So be it. Come Patsy.</p><p>Black Knight: None shall pass.</p>"
     },
     {
         "id": 2,
-        "name": "Beverage Time - Custom Shopify Theme",
+        "name": "Beverage Time",
+        "desc": "Custom Shopify Theme",
         "img_code": "beverage_time",
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
         "tags": "shopify, liquid, javascript",
         "web_link": "https://beveragetime.com/",
-        "description": "tbd"
+        "description": "And now! At Last! Another film completely different from some of the other films which aren't quite the same as this one is."
     },
     {
         "id": 3,
-        "name": "Client Panel - Angular/Firebase Application",
-        "img_code": "client_panel",
+        "name": "Client Panel",
+        "desc": "Angular/Firebase Application",
+        "img_code": "client-panel.jpg",
         "technologies_used": "Angular, Angular CLI, Firebase, Typescript",
         "tags": "angular, firebase, typescript",
         "web_link": "https://clientpanelprod-a1012.firebaseapp.com/login",
         "github_link": "https://github.com/james-zedd/client-panel-0984543",
-        "description": "tbd"
+        "description": "<p>Client Panel is an Angular application that allows employees to manage business contacts and update information as needed. It features login via email/password and has CRUD functionality for contacts.</p><p>The application is build with Angular JS and also connects to Google Firebase for storing and calling data.</p>"
     },
     {
         "id": 4,
-        "name": "Github Finder - React App for Github",
-        "img_code": "github_finder",
+        "name": "Github Finder",
+        "desc": "React App for Github",
+        "img_code": "github-finder.jpg",
         "technologies_used": "React, GitHub API",
         "tags": "react, github, api",
         "web_link": "https://eager-williams-ee7a0c.netlify.com/",
         "github_link": "https://github.com/james-zedd/github-finder-react",
-        "description": "tbd"
+        "description": "<p>The github finder is a simple application built with React JS. It utilizes the Github API to search for Github users and then display information about those users.</p><p>On top of using the basic react components, the app also utilizes Axios for API calls.</p>"
     },
     {
         "id": 5,
-        "name": "Robyn Zedd Design - Custom React Portfolio",
-        "img_code": "rzd",
+        "name": "Robyn Zedd Design",
+        "desc": "Custom React Portfolio",
+        "img_code": "rzd.jpg",
         "technologies_used": "React, NPM",
         "tags": "react, portfolio, graphic design",
         "web_link": "http://robynzedd.design/",
         "github_link": "https://github.com/james-zedd/robyn-zedd-portfolio-6549818961",
-        "description": "tbd"
+        "description": "<p>When searching for a career in graphic design, Robyn needed an online portfolio to display her artwork that also had a simple but pleasant user experience. The solution was to create a simple react application that operated as a portfolio for her artwork.</p><p>The application has a simple display page that takes it's information from a JSON file and sorts each portfolio item into a clickable tile. From there, each portfolio item is loaded into a custom slider for display.</p>"
     },
     {
         "id": 6,
-        "name": "Storybooks - Custom Application",
-        "img_code": "story",
+        "name": "Storybooks",
+        "desc": "Node JS Application",
+        "img_code": "storybooks.jpg",
         "technologies_used": "Node JS, Express JS, Heroku CLI",
-        "tags": "nodejs, expressjs, heroku",
+        "tags": "nodejs, expressjs, heroku cli",
         "web_link": "https://marvelous-isle-royale-75722.herokuapp.com/",
-        "description": "tbd"
+        "description": "<p>Storybooks is a user-generated content application for creative writers and storytellers. It requires login via Google and users can then create their own private or public stories.</p><p>The application was built with Node JS and also utilizes Express JS.</p>"
     }
 ]

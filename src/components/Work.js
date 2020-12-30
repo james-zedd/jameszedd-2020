@@ -23,13 +23,17 @@ export class Work extends Component {
     }
 
     viewItem = (id) => {
-        this.setState({activeItemId: id});
-        this.setState({activeItem: getWorkItem(id)});
+        this.setState({
+            activeItemId: id,
+            activeItem: getWorkItem(id)
+        });
     }
 
     clear = () => {
-        this.setState({activeItemId: ''});
-        this.setState({activeItem: {}});
+        this.setState({
+            activeItemId: '',
+            activeItem: {}
+        });
     }
 
     render() {

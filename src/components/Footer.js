@@ -6,7 +6,7 @@ export const Footer = () => {
             <hr/>
             <div className="footer__text text-center">
                 <p className="footer__copyright">© 2020 Zedd Enterprises. All rights reserved.</p>
-                <p className="footer__design">Web Design by Robyn Zedd Designs.</p>
+                <p className="footer__view">View this React app on Github</p>
             </div>
         </footer>
     )

@@ -1,12 +1,9 @@
 .work {
-    &__items {
-        padding-top: 65px;
+    &__title {
+        margin-bottom: 25px;
     }
 
-    &__item {
-        width: 360px;
-        height: 360px;
-        background-color: red;
-        margin-bottom: 20px;
+    &__items {
+        padding-top: 40px;
     }
 }
