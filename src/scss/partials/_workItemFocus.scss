@@ -22,10 +22,16 @@
         margin-bottom: 12px;
     }
 
+    &__link {
+        display: block;
+        width: 100px;
+        margin-bottom: 8px;
+    }
+
     &__clear {
         display: block;
         width: 100%;
-        max-width: 400px;
+        max-width: 150px;
         padding: 6px 0;
         cursor: pointer;
     }

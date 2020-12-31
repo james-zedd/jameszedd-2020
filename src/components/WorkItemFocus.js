@@ -14,13 +14,13 @@ export default class WorkItemFocus extends Component {
                 </div>
             )
         } else {
-            const { name, description, tags, img_code } = this.props.activeItem;
+            const { name, description, tags, img_code, web_link, github_link } = this.props.activeItem;
             return (
                 <div className="work-item-focus">
                     <div className="row">
                         <div className="col col-4">
                             <img 
-                                src={`../assets/img/${img_code}`}
+                                src={require(`../assets/img/${img_code}`).default}
                                 alt={name}
                             />
                         </div>
@@ -31,6 +31,18 @@ export default class WorkItemFocus extends Component {
                             <p className="work-item-focus__technologies-title">Technologies used:</p>
                             <div className="work-item-focus__tags">
                                 {tags}
+                            </div>
+                            <div className="work-item-focus__links">
+                                { github_link &&
+                                    <a href={github_link} className="work-item-focus__link" target="_blank" rel="noreferrer">
+                                        View on Github
+                                    </a>
+                                }
+                                { web_link &&
+                                    <a href={web_link} className="work-item-focus__link" target="_blank" rel="noreferrer">
+                                        View in browser
+                                    </a>
+                                }
                             </div>
                             <div className="work-item-focus__clear">
                                 <button className="work-item-focus__clear" onClick={this.handleClear}>Clear</button>
