@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./themes/_globalStyles";
 import "./scss/application.scss";
 
-import lightTheme from "./components/themes/light";
-import darkTheme from "./components/themes/dark";
+import { useDarkMode } from "./hooks/useDarkMode";
+
+import lightTheme from "./themes/light";
+import darkTheme from "./themes/dark";
 
 import { Header } from "./components/Header";
 import { Opener } from "./components/Opener";
@@ -13,33 +16,35 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 function App() {
-  const stored = localStorage.getItem("isDarkMode");
-  const [isDarkMode, setIsDarkMode] = useState(
-    stored === "true" ? true : false
-  );
-  return (
-    <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
-      <div id="theme" className="theme-default">
-        <button onClick={() => {
-          setIsDarkMode(!isDarkMode);
-          localStorage.setItem("isDarkMode", !isDarkMode);
-        }}>
-          Toggle Dark Mode
-        </button>
-        <div>Is dark mode: {isDarkMode}</div>
-        <div className="container">
-          <Header />
-          <main role="main">
-            <Opener />
-            <About />
-            <Work />
-            <Contact />
-          </main>
-          <Footer />
+  const [theme, themeToggler, mountedComponent] = useDarkMode();
+
+  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+
+  if (!mountedComponent) {
+    return <div />
+  } else {
+    return (
+      <ThemeProvider theme={themeMode}>
+        <GlobalStyles />
+  
+        <div id="App">
+          {/* <ThemeToggle theme={theme} toggleTheme={themeToggler} /> */}
+          <div className="container">
+            <Header theme={theme} themeToggler={themeToggler} />
+            <main role="main">
+              <Opener />
+              <About />
+              <Work />
+              <Contact />
+            </main>
+            <Footer />
+          </div>
         </div>
-      </div>
-    </ThemeProvider>
-  );
+  
+      </ThemeProvider>
+    );
+  }
+
 }
 
 export default App;

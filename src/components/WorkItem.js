@@ -15,7 +15,7 @@ export default class WorkItem extends Component {
                 <div className="work-item">
                     <h2 className="work-item__title">{name}</h2>
                     <p className="work-item__desc">{desc}</p>
-                    <button className="work-item__btn" onClick={this.handleClick}>Read more</button>
+                    <button className="work-item__btn btn btn-accent" onClick={this.handleClick}>Read more</button>
                 </div>
             </div>
         )

@@ -34,18 +34,18 @@ export default class WorkItemFocus extends Component {
                             </div>
                             <div className="work-item-focus__links">
                                 { github_link &&
-                                    <a href={github_link} className="work-item-focus__link" target="_blank" rel="noreferrer">
+                                    <a href={github_link} className="work-item-focus__link text-link" target="_blank" rel="noreferrer">
                                         View on Github
                                     </a>
                                 }
                                 { web_link &&
-                                    <a href={web_link} className="work-item-focus__link" target="_blank" rel="noreferrer">
+                                    <a href={web_link} className="work-item-focus__link text-link" target="_blank" rel="noreferrer">
                                         View in browser
                                     </a>
                                 }
                             </div>
                             <div className="work-item-focus__clear">
-                                <button className="work-item-focus__clear" onClick={this.handleClear}>Clear</button>
+                                <button className="work-item-focus__clear btn" onClick={this.handleClear}>Clear</button>
                             </div>
                         </div>
                     </div>
