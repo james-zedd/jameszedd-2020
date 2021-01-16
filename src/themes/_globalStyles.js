@@ -5,12 +5,14 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     transition: background-color 100ms linear;
+    transition: color 200ms linear;
   }
 
   .opener__list ul li, .work-item {
     background-color: ${({ theme }) => theme.accentBackground};
     color: ${({ theme }) => theme.accentText};
-    transition: all 500ms linear;
+    transition: background-color 500ms linear;
+    transition: color 500ms linear;
   }
 
   .contact__item a svg {

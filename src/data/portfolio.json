@@ -7,7 +7,7 @@
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
         "tags": "shopify, liquid, javascript",
         "web_link": "https://cdnbev.com/",
-        "description": "<p>King Arthur: You fight with the strength of many men, sir Knight. [The Black Knight looks at him in Silence] I am Arthur, King of the Britons. [The Black Knight doesn't respond as Arthur looks at Patsy and back at the Knight] I seek the finest and the bravest Knights in the land to join Me in my court at Camelot. [Still no response as Arthur looks at Patsy and back at the Knight] You have proved yourself worthy. Will you join me? [The Black Knight remains silent as Arthur looks at Patsy and back at him] You make me sad. So be it. Come Patsy.</p><p>Black Knight: None shall pass.</p>"
+        "description": "<p>With over 3000 skus in their catalog, Canadian Beverage Supply Inc. was looking to provide a better user experience to their customers. Their Shopify store was ready to sell their products, but finding the right product in a large catalog was not easy.</p><p>After some discussions, we came up with a system for making categories and sub-categories for all their products, and allowed customers to enter those sub-categories sequentially so they could find the proper sku they were looking for.</p>"
     },
     {
         "id": 2,
@@ -17,13 +17,13 @@
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
         "tags": "shopify, liquid, javascript",
         "web_link": "https://beveragetime.com/",
-        "description": "And now! At Last! Another film completely different from some of the other films which aren't quite the same as this one is."
+        "description": "<p>Beverage Time was looking to move their ecommerce to Shopify. Although a lot of Shopify themes offered some great options, Beverage Time needed some custom options on their theme to properly express their brand.</p><p>After having the new design created, the functionality and UI changes were coded directly into Beverage Time's custom theme to provide a pleasant and user-friendly experience.</p>"
     },
     {
         "id": 3,
         "name": "Client Panel",
         "desc": "Angular/Firebase Application",
-        "img_code": "client-panel.jpg",
+        "img_code": "client-panel.png",
         "technologies_used": "Angular, Angular CLI, Firebase, Typescript",
         "tags": "angular, firebase, typescript",
         "web_link": "https://clientpanelprod-a1012.firebaseapp.com/login",
@@ -34,7 +34,7 @@
         "id": 4,
         "name": "Github Finder",
         "desc": "React App for Github",
-        "img_code": "github-finder.jpg",
+        "img_code": "github-finder.png",
         "technologies_used": "React, GitHub API",
         "tags": "react, github, api",
         "web_link": "https://eager-williams-ee7a0c.netlify.com/",
@@ -45,7 +45,7 @@
         "id": 5,
         "name": "Robyn Zedd Design",
         "desc": "Custom React Portfolio",
-        "img_code": "rzd.jpg",
+        "img_code": "rzd.png",
         "technologies_used": "React, NPM",
         "tags": "react, portfolio, graphic design",
         "web_link": "http://robynzedd.design/",
@@ -56,10 +56,20 @@
         "id": 6,
         "name": "Storybooks",
         "desc": "Node JS Application",
-        "img_code": "storybooks.jpg",
+        "img_code": "storybooks.png",
         "technologies_used": "Node JS, Express JS, Heroku CLI",
         "tags": "nodejs, expressjs, heroku cli",
         "web_link": "https://marvelous-isle-royale-75722.herokuapp.com/",
         "description": "<p>Storybooks is a user-generated content application for creative writers and storytellers. It requires login via Google and users can then create their own private or public stories.</p><p>The application was built with Node JS and also utilizes Express JS.</p>"
+    },
+    {
+        "id": 7,
+        "name": "Gingerbread World",
+        "desc": "Custom Shopify Theme",
+        "img_code": "gbw.png",
+        "technologies_used": "Liquid Template Engine, Shopify, Javascript",
+        "tags": "shopify, liquid, javascript",
+        "web_link": "https://gingerbread-world.com/",
+        "description": "<p>To help prepare for it's busy season, Gingerbread World needed to give customers the option to select when their Christmas packages arrived. This option was always available via phone, but also needed to be available for online orders.</p><p>By adding a dropdown selector at cart to orders that only contained products with a specific tag, we were able to separate seasonal orders from regular ones and also add delivery times to invoices. This helped keep Gingerbread World's orders organized and also allowed customers to receive their orders when they specified.</p>"
     }
 ]

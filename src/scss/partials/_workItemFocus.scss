@@ -1,7 +1,12 @@
 .work-item-focus {
     &__title {
         font-size: 1.5rem;
+        margin-top: 24px;
         margin-bottom: 12px;
+
+        @media (min-width: 768px) {
+            margin-top: 0;
+        }
     }
 
     &__subtitle {
@@ -19,12 +24,16 @@
     }
 
     &__tags {
-        margin-bottom: 12px;
+        margin-bottom: 18px;
     }
 
     &__link {
         display: block;
-        width: 100px;
-        margin-bottom: 8px;
+        width: 120px;
+        margin-bottom: 12px;
+    }
+
+    &__clear {
+        margin-top: 12px;
     }
 }
