@@ -71,5 +71,16 @@
         "tags": "shopify, liquid, javascript",
         "web_link": "https://gingerbread-world.com/",
         "description": "<p>To help prepare for it's busy season, Gingerbread World needed to give customers the option to select when their Christmas packages arrived. This option was always available via phone, but also needed to be available for online orders.</p><p>By adding a dropdown selector at cart to orders that only contained products with a specific tag, we were able to separate seasonal orders from regular ones and also add delivery times to invoices. This helped keep Gingerbread World's orders organized and also allowed customers to receive their orders when they specified.</p>"
+    },
+    {
+        "id": 8,
+        "name": "Node.js API Demo",
+        "desc": "A REST API built with Node.js",
+        "img_code": "api.png",
+        "technologies_used": "Node JS, Express JS, Javascript",
+        "tags": "nodejs, expressjs, javascript",
+        "web_link": "https://jameszedd.xyz/",
+        "github_link": "https://github.com/james-zedd/node-api-project-020393420",
+        "description": "<p>The goal of this project was to create a back-end rest API that would reach out to a MongoDB database and return the requested information. This API has full CRUD (create, read, update, delete) functionality, but is limited within the demo link to only GET requests.</p><p>The structure for the data was to create bootcamp-style learning programs, with each bootcamp containing any number of courses. Users would register themselves and then sign up for any bootcamps they would like. When each bootcamp was complete, the user would then be allowed to write a review for the bootcamp.</p>"
     }
 ]
