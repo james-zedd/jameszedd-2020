@@ -76,7 +76,7 @@
         "id": 8,
         "name": "Node.js API Demo",
         "desc": "A REST API built with Node.js",
-        "img_code": "api.png",
+        "img_code": "api_image.png",
         "technologies_used": "Node JS, Express JS, Javascript",
         "tags": "nodejs, expressjs, javascript",
         "web_link": "https://jameszedd.xyz/",
