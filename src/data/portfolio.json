@@ -82,5 +82,38 @@
         "web_link": "https://jameszedd.xyz/",
         "github_link": "https://github.com/james-zedd/node-api-project-020393420",
         "description": "<p>The goal of this project was to create a back-end rest API that would reach out to a MongoDB database and return the requested information. This API has full CRUD (create, read, update, delete) functionality, but is limited within the demo link to only GET requests.</p><p>The structure for the data was to create bootcamp-style learning programs, with each bootcamp containing any number of courses. Users would register themselves and then sign up for any bootcamps they would like. When each bootcamp was complete, the user would then be allowed to write a review for the bootcamp.</p>"
+    },
+    {
+        "id": 9,
+        "name": "Github Finder 2022",
+        "desc": "React App for Finding Github Users",
+        "img_code": "github-finder_2022.png",
+        "technologies_used": "React JS, Tailwind CSS, Github API",
+        "tags": "react, tailwind, api",
+        "web_link": "https://github-finder-2022-chi.vercel.app/",
+        "github_link": "https://github.com/james-zedd/github-finder-2022",
+        "description": "<p>As a refresh of the past Github Finder, this new react application features a much more robust UI which utilizes Tailwind CSS.</p><p>The application will search for github users based on their username and will display some public information about the user, such as number of followers, number of public repositories and stats on their public repos.</p>"
+    },
+    {
+        "id": "10",
+        "name": "House Marketplace Application",
+        "desc": "React/Firebase app for property listings",
+        "img_code": "realestate_800.png",
+        "technologies_used": "React JS, Firebase for database and user authentication",
+        "tags": "react, firebase, npm",
+        "web_link": "https://housing-marketplace-app-49389250.vercel.app/",
+        "github_link": "https://github.com/james-zedd/housing-marketplace-app-49389250",
+        "description": "<p>This is an application where users can list their properties for sale or for rent.</p><p>The app uses React on the front end while utilizing Google Firebase for user creation, user authentication and database management.</p><p>Anyone can browse the property listings, but an account is necessary to create a listing. Users can register with the app using email/password or they can register via their Google account.</p>"
+    },
+    {
+        "id": "11",
+        "name": "Help Desk MERN Stack Application",
+        "desc": "A MERN stack support desk application",
+        "img_code": "helpdesk__800.png",
+        "technologies_used": "Node JS, Express JS, React JS, Mongo DB, React Redux",
+        "tags": "react, nodejs, expressjs, mongodb, redux",
+        "web_link": "https://helpdesk-app-23942.herokuapp.com/",
+        "github_link": "https://github.com/james-zedd/helpdesk-app-2593820",
+        "description": "<p>This is an application for customers to log support tickets and for staff to reply to them.</p><p>The app utilizes the MERN stack (Mongo DB, Express JS, React JS, Node JS) to manage customer data, tickets and conversations within tickets between customers and staff.</p><p>Users can register with this application via email/password and then start posting and managing their tickets.</p>"
     }
 ]
