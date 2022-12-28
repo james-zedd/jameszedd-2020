@@ -3,6 +3,12 @@
         margin-bottom: 18px;
     }
 
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     &__profile-pic {
         max-width: 300px;
         margin-top: 24px;
