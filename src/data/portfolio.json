@@ -95,7 +95,7 @@
         "description": "<p>As a refresh of the past Github Finder, this new react application features a much more robust UI which utilizes Tailwind CSS.</p><p>The application will search for github users based on their username and will display some public information about the user, such as number of followers, number of public repositories and stats on their public repos.</p>"
     },
     {
-        "id": "10",
+        "id": 10,
         "name": "House Marketplace Application",
         "desc": "React/Firebase app for property listings",
         "img_code": "realestate_800.png",
@@ -106,7 +106,7 @@
         "description": "<p>This is an application where users can list their properties for sale or for rent.</p><p>The app uses React on the front end while utilizing Google Firebase for user creation, user authentication and database management.</p><p>Anyone can browse the property listings, but an account is necessary to create a listing. Users can register with the app using email/password or they can register via their Google account.</p>"
     },
     {
-        "id": "11",
+        "id": 11,
         "name": "Help Desk MERN Stack Application",
         "desc": "A MERN stack support desk application",
         "img_code": "helpdesk__800.png",
@@ -117,7 +117,7 @@
         "description": "<p>This is an application for customers to log support tickets and for staff to reply to them.</p><p>The app utilizes the MERN stack (Mongo DB, Express JS, React JS, Node JS) to manage customer data, tickets and conversations within tickets between customers and staff.</p><p>Users can register with this application via email/password and then start posting and managing their tickets.</p>"
     },
     {
-        "id": "12",
+        "id": 12,
         "name": "CAFI Student Portal with Student-Only Access",
         "desc": "A student resource built for the CAFI group",
         "img_code": "yoshinkai-logo__800.jpg",

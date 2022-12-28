@@ -29,8 +29,21 @@
 
     &__link {
         display: block;
-        width: 120px;
+        width: 160px;
+        text-align: center;
         margin-bottom: 12px;
+        border: 1px solid #111;
+        background-color: #111;
+        border-radius: 6px;
+        padding: 16px;
+
+        @media (min-width: 768px) {
+            border: 0;
+            background-color: transparent;
+            border-radius: 0;
+            padding: 0;
+            text-align: left;
+        }
     }
 
     &__clear {
