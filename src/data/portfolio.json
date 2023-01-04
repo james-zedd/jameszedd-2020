@@ -5,7 +5,7 @@
         "desc": "Custom Shopify Theme",
         "img_code": "cbs.jpg",
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
-        "tags": "shopify, liquid, javascript",
+        "tags": "shopify,liquid,javascript",
         "web_link": "https://cdnbev.com/",
         "description": "<p>With over 3000 skus in their catalog, Canadian Beverage Supply Inc. was looking to provide a better user experience to their customers. Their Shopify store was ready to sell their products, but finding the right product in a large catalog was not easy.</p><p>After some discussions, we came up with a system for making categories and sub-categories for all their products, and allowed customers to enter those sub-categories sequentially so they could find the proper sku they were looking for.</p>"
     },
@@ -15,7 +15,7 @@
         "desc": "Custom Shopify Theme",
         "img_code": "beverage_time.png",
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
-        "tags": "shopify, liquid, javascript",
+        "tags": "shopify,liquid,javascript",
         "web_link": "https://beveragetime.com/",
         "description": "<p>Beverage Time was looking to move their ecommerce to Shopify. Although a lot of Shopify themes offered some great options, Beverage Time needed some custom options on their theme to properly express their brand.</p><p>After having the new design created, the functionality and UI changes were coded directly into Beverage Time's custom theme to provide a pleasant and user-friendly experience.</p>"
     },
@@ -25,7 +25,7 @@
         "desc": "Angular/Firebase Application",
         "img_code": "client-panel.png",
         "technologies_used": "Angular, Angular CLI, Firebase, Typescript",
-        "tags": "angular, firebase, typescript",
+        "tags": "angular,firebase,typescript",
         "web_link": "https://clientpanelprod-a1012.firebaseapp.com/login",
         "github_link": "https://github.com/james-zedd/client-panel-0984543",
         "description": "<p>Client Panel is an Angular application that allows employees to manage business contacts and update information as needed. It features login via email/password and has CRUD functionality for contacts.</p><p>The application is build with Angular JS and also connects to Google Firebase for storing and calling data.</p>"
@@ -36,7 +36,7 @@
         "desc": "React App for Github",
         "img_code": "github-finder.png",
         "technologies_used": "React, GitHub API",
-        "tags": "react, github, api",
+        "tags": "react,github,api",
         "web_link": "https://eager-williams-ee7a0c.netlify.com/",
         "github_link": "https://github.com/james-zedd/github-finder-react",
         "description": "<p>The github finder is a simple application built with React JS. It utilizes the Github API to search for Github users and then display information about those users.</p><p>On top of using the basic react components, the app also utilizes Axios for API calls.</p>"
@@ -47,7 +47,7 @@
         "desc": "Custom React Portfolio",
         "img_code": "rzd.png",
         "technologies_used": "React, NPM",
-        "tags": "react, portfolio, graphic design",
+        "tags": "react,portfolio,graphic design",
         "web_link": "http://robynzedd.design/",
         "github_link": "https://github.com/james-zedd/robyn-zedd-portfolio-6549818961",
         "description": "<p>When searching for a career in graphic design, Robyn needed an online portfolio to display her artwork that also had a simple but pleasant user experience. The solution was to create a simple react application that operated as a portfolio for her artwork.</p><p>The application has a simple display page that takes it's information from a JSON file and sorts each portfolio item into a clickable tile. From there, each portfolio item is loaded into a custom slider for display.</p>"
@@ -58,7 +58,7 @@
         "desc": "Node JS Application",
         "img_code": "storybooks.png",
         "technologies_used": "Node JS, Express JS, Heroku CLI",
-        "tags": "nodejs, expressjs, heroku cli",
+        "tags": "nodejs,expressjs,heroku cli",
         "web_link": "https://marvelous-isle-royale-75722.herokuapp.com/",
         "description": "<p>Storybooks is a user-generated content application for creative writers and storytellers. It requires login via Google and users can then create their own private or public stories.</p><p>The application was built with Node JS and also utilizes Express JS.</p>"
     },
@@ -68,7 +68,7 @@
         "desc": "Custom Shopify Theme",
         "img_code": "gbw.png",
         "technologies_used": "Liquid Template Engine, Shopify, Javascript",
-        "tags": "shopify, liquid, javascript",
+        "tags": "shopify,liquid,javascript",
         "web_link": "https://gingerbread-world.com/",
         "description": "<p>To help prepare for it's busy season, Gingerbread World needed to give customers the option to select when their Christmas packages arrived. This option was always available via phone, but also needed to be available for online orders.</p><p>By adding a dropdown selector at cart to orders that only contained products with a specific tag, we were able to separate seasonal orders from regular ones and also add delivery times to invoices. This helped keep Gingerbread World's orders organized and also allowed customers to receive their orders when they specified.</p>"
     },
@@ -78,7 +78,7 @@
         "desc": "React App for Finding Github Users",
         "img_code": "github-finder_2022.png",
         "technologies_used": "React JS, Tailwind CSS, Github API",
-        "tags": "react, tailwind, api",
+        "tags": "react,tailwind,api",
         "web_link": "https://github-finder-2022-chi.vercel.app/",
         "github_link": "https://github.com/james-zedd/github-finder-2022",
         "description": "<p>As a refresh of the past Github Finder, this new react application features a much more robust UI which utilizes Tailwind CSS.</p><p>The application will search for github users based on their username and will display some public information about the user, such as number of followers, number of public repositories and stats on their public repos.</p>"
@@ -89,7 +89,7 @@
         "desc": "React/Firebase app for property listings",
         "img_code": "realestate_800.png",
         "technologies_used": "React JS, Firebase for database and user authentication",
-        "tags": "react, firebase, npm",
+        "tags": "react,firebase,npm",
         "web_link": "https://housing-marketplace-app-49389250.vercel.app/",
         "github_link": "https://github.com/james-zedd/housing-marketplace-app-49389250",
         "description": "<p>This is an application where users can list their properties for sale or for rent.</p><p>The app uses React on the front end while utilizing Google Firebase for user creation, user authentication and database management.</p><p>Anyone can browse the property listings, but an account is necessary to create a listing. Users can register with the app using email/password or they can register via their Google account.</p>"
@@ -100,7 +100,7 @@
         "desc": "A MERN stack support desk application",
         "img_code": "helpdesk__800.png",
         "technologies_used": "Node JS, Express JS, React JS, Mongo DB, React Redux",
-        "tags": "react, nodejs, expressjs, mongodb, redux",
+        "tags": "react,nodejs,expressjs,mongodb,redux",
         "web_link": "https://helpdesk-app-23942.herokuapp.com/",
         "github_link": "https://github.com/james-zedd/helpdesk-app-2593820",
         "description": "<p>This is an application for customers to log support tickets and for staff to reply to them.</p><p>The app utilizes the MERN stack (Mongo DB, Express JS, React JS, Node JS) to manage customer data, tickets and conversations within tickets between customers and staff.</p><p>Users can register with this application via email/password and then start posting and managing their tickets.</p>"
@@ -111,7 +111,7 @@
         "desc": "A student resource application built for the Chudokai Aikido Federation International",
         "img_code": "yoshinkai-logo__800.jpg",
         "technologies_used": "Node JS, Express JS, React JS, Mongo DB, AWS EC2",
-        "tags": "react, nodejs, expressjs, mongodb, aws",
+        "tags": "react,nodejs,expressjs,mongodb,aws",
         "web_link": "https://portal.chudokaiaikidofederationinternational.org/",
         "github_link": "https://github.com/james-zedd/cafi-student-portal--130245840986",
         "description": "<p>This MERN stack application is an on-going project to provide the students of the Chudokai Aikido Federation International with a number of student resources.</p><p>The MVP of this application features a list of the exam requirements from 9th kyu (yellow belt with a stripe) to 4th degree black belt. It also has a news feed section and a Question/Answer system where the user can submit questions to the Dojocho (head of the dojo).</p><p>A student must be logged in to access these features.</p>"

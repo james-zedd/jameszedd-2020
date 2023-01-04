@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: color 200ms linear;
   }
 
-  .opener__list ul li, .work-item {
+  .opener__list ul li, .portfolio__filters ul li, .work-item {
     background-color: ${({ theme }) => theme.accentBackground};
     color: ${({ theme }) => theme.accentText};
     transition: background-color 500ms linear;
@@ -41,4 +41,4 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.accentBackground};
     transition: all 500ms linear;
   }
-  `
+  `;

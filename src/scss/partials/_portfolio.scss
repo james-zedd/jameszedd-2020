@@ -1,0 +1,30 @@
+.portfolio {
+    &__filters {
+        padding-top: 65px;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                margin: 0 10px 20px;
+                padding: 24px 0;
+                text-align: center;
+                width: calc(50% - 20px);
+                cursor: pointer;
+
+                @media (min-width: 768px) {
+                    width: calc(20% - 20px);
+                }
+            }
+        }
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -20px;
+    }
+}
