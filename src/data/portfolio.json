@@ -1,25 +1,5 @@
 [
     {
-        "id": 1,
-        "name": "Canadian Beverage Supply",
-        "desc": "Custom Shopify Theme",
-        "img_code": "cbs.jpg",
-        "technologies_used": "Liquid Template Engine, Shopify, Javascript",
-        "tags": "shopify, liquid, javascript",
-        "web_link": "https://cdnbev.com/",
-        "description": "<p>With over 3000 skus in their catalog, Canadian Beverage Supply Inc. was looking to provide a better user experience to their customers. Their Shopify store was ready to sell their products, but finding the right product in a large catalog was not easy.</p><p>After some discussions, we came up with a system for making categories and sub-categories for all their products, and allowed customers to enter those sub-categories sequentially so they could find the proper sku they were looking for.</p>"
-    },
-    {
-        "id": 2,
-        "name": "Beverage Time",
-        "desc": "Custom Shopify Theme",
-        "img_code": "beverage_time.png",
-        "technologies_used": "Liquid Template Engine, Shopify, Javascript",
-        "tags": "shopify, liquid, javascript",
-        "web_link": "https://beveragetime.com/",
-        "description": "<p>Beverage Time was looking to move their ecommerce to Shopify. Although a lot of Shopify themes offered some great options, Beverage Time needed some custom options on their theme to properly express their brand.</p><p>After having the new design created, the functionality and UI changes were coded directly into Beverage Time's custom theme to provide a pleasant and user-friendly experience.</p>"
-    },
-    {
         "id": 3,
         "name": "Client Panel",
         "desc": "Angular/Firebase Application",
@@ -35,7 +15,7 @@
         "name": "Github Finder",
         "desc": "React App for Github",
         "img_code": "github-finder.png",
-        "technologies_used": "React, GitHub API",
+        "technologies_used": "React JS, Javascript, GitHub API",
         "tags": "react, github, api",
         "web_link": "https://eager-williams-ee7a0c.netlify.com/",
         "github_link": "https://github.com/james-zedd/github-finder-react",
@@ -44,33 +24,13 @@
     {
         "id": 5,
         "name": "Robyn Zedd Design",
-        "desc": "Custom React Portfolio",
+        "desc": "Custom Graphic Design Portfolio",
         "img_code": "rzd.png",
-        "technologies_used": "React, NPM",
-        "tags": "react, portfolio, graphic design",
-        "web_link": "http://robynzedd.design/",
+        "technologies_used": "React JS, Javascript",
+        "tags": "react, javascript",
+        "web_link": "http://robynzedddesign.com/",
         "github_link": "https://github.com/james-zedd/robyn-zedd-portfolio-6549818961",
         "description": "<p>When searching for a career in graphic design, Robyn needed an online portfolio to display her artwork that also had a simple but pleasant user experience. The solution was to create a simple react application that operated as a portfolio for her artwork.</p><p>The application has a simple display page that takes it's information from a JSON file and sorts each portfolio item into a clickable tile. From there, each portfolio item is loaded into a custom slider for display.</p>"
-    },
-    {
-        "id": 6,
-        "name": "Storybooks",
-        "desc": "Node JS Application",
-        "img_code": "storybooks.png",
-        "technologies_used": "Node JS, Express JS, Heroku CLI",
-        "tags": "nodejs, expressjs, heroku cli",
-        "web_link": "https://marvelous-isle-royale-75722.herokuapp.com/",
-        "description": "<p>Storybooks is a user-generated content application for creative writers and storytellers. It requires login via Google and users can then create their own private or public stories.</p><p>The application was built with Node JS and also utilizes Express JS.</p>"
-    },
-    {
-        "id": 7,
-        "name": "Gingerbread World",
-        "desc": "Custom Shopify Theme",
-        "img_code": "gbw.png",
-        "technologies_used": "Liquid Template Engine, Shopify, Javascript",
-        "tags": "shopify, liquid, javascript",
-        "web_link": "https://gingerbread-world.com/",
-        "description": "<p>To help prepare for it's busy season, Gingerbread World needed to give customers the option to select when their Christmas packages arrived. This option was always available via phone, but also needed to be available for online orders.</p><p>By adding a dropdown selector at cart to orders that only contained products with a specific tag, we were able to separate seasonal orders from regular ones and also add delivery times to invoices. This helped keep Gingerbread World's orders organized and also allowed customers to receive their orders when they specified.</p>"
     },
     {
         "id": 9,
@@ -93,17 +53,6 @@
         "web_link": "https://housing-marketplace-app-49389250.vercel.app/",
         "github_link": "https://github.com/james-zedd/housing-marketplace-app-49389250",
         "description": "<p>This is an application where users can list their properties for sale or for rent.</p><p>The app uses React on the front end while utilizing Google Firebase for user creation, user authentication and database management.</p><p>Anyone can browse the property listings, but an account is necessary to create a listing. Users can register with the app using email/password or they can register via their Google account.</p>"
-    },
-    {
-        "id": 11,
-        "name": "Help Desk MERN Stack Application",
-        "desc": "A MERN stack support desk application",
-        "img_code": "helpdesk__800.png",
-        "technologies_used": "Node JS, Express JS, React JS, Mongo DB, React Redux",
-        "tags": "react, nodejs, expressjs, mongodb, redux",
-        "web_link": "https://helpdesk-app-23942.herokuapp.com/",
-        "github_link": "https://github.com/james-zedd/helpdesk-app-2593820",
-        "description": "<p>This is an application for customers to log support tickets and for staff to reply to them.</p><p>The app utilizes the MERN stack (Mongo DB, Express JS, React JS, Node JS) to manage customer data, tickets and conversations within tickets between customers and staff.</p><p>Users can register with this application via email/password and then start posting and managing their tickets.</p>"
     },
     {
         "id": 12,
