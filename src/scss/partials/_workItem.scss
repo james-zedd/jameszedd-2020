@@ -1,25 +1,36 @@
 .work-item {
-    background-color: red;
+    background-color: #1a1a1a;
     margin-bottom: 20px;
-    padding: 12px;
+    padding: 24px;
 
     &__desc-container {
-        min-height: 105px;
+        min-height: 185px;
         margin-bottom: 24px;
+
+        @media (min-width: 768px) {
+            min-height: 125px;
+        }
     }
 
     &__title {
-        font-size: 24px;
+        font-size: 2rem;
+        margin-bottom: 2px;
     }
 
     &__desc {
-        font-size: 16px;
+        font-size: 1.2rem;
     }
 
-    &__btn {
-        display: block;
-        width: 100%;
-        padding: 6px 0;
+    &__links {
+        display: flex;
+    }
+
+    &__link {
+        text-decoration: none;
+        padding: 6px 12px;
+        border: 1px solid #eee;
+        border-radius: 6px;
+        background-color: #181818;
         cursor: pointer;
     }
 }

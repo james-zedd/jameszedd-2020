@@ -3,6 +3,14 @@
         margin-bottom: 18px;
     }
 
+    &__text p {
+        font-size: 1.25rem;
+
+        @media (min-width: 768px) {
+            font-size: 1.5rem;
+        }
+    }
+
     &__img {
         display: flex;
         justify-content: center;
