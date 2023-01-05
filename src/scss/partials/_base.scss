@@ -1,15 +1,18 @@
+// Base
+// ===============
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 body {
-    font-family: 'Inconsolata', sans-serif;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    background-color: #dce1e3;
-    color: #50504f;
+    background-color: #121212;
+    color: #a0a0a0;
 }
 
 h1,
@@ -18,14 +21,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: #f1f1f1;
 }
 
-section,
-footer {
-    padding-top: 125px;
+section {
+    padding-top: 50px;
 }
 
 p {
@@ -38,13 +40,33 @@ img {
     max-width: 100%;
 }
 
-.title {
-    font-size: 36px;
-    font-weight: 700;
+a {
+    color: #eee;
+    cursor: pointer;
+}
+
+// Helpers
+// ===============
+
+.font-5x {
+    font-size: 4rem;
+
+    @media (min-width: 768px) {
+        font-size: 5rem;
+    }
+}
+
+.section-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .text-center {
     text-align: center;
+}
+
+.ml-auto {
+    margin-left: auto;
 }
 
 .btn {

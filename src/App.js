@@ -1,7 +1,6 @@
 import React from 'react';
 import './scss/application.scss';
 
-import { Header } from './components/Header';
 import { Opener } from './components/Opener';
 import { About } from './components/About';
 import { Work } from './components/Work';
