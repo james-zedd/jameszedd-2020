@@ -5,8 +5,7 @@ export const About = () => {
     return (
         <section className='about'>
             <div className='row'>
-                <div className='about__text col col-8'>
-                    <h1 className='about__title title'>About</h1>
+                <div className='about__text col'>
                     <p>
                         I began my professional career with a local software
                         company in 2019 that builds and maintains Learning
@@ -31,13 +30,13 @@ export const About = () => {
                         to client requests.
                     </p>
                 </div>
-                <div className='about__img col col-4 text-center'>
+                {/* <div className='about__img col col-4 text-center'>
                     <img
                         src={profilePic}
                         className='about__profile-pic'
                         alt='james_zedd'
                     />
-                </div>
+                </div> */}
             </div>
         </section>
     );
